@@ -1,0 +1,20 @@
+p{
+    color: rgb(46, 43, 226);
+    font-size: 50px;
+    font-style: italic;
+}
+
+/*Clase*/
+.parrafo{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+/*ID* aqui se coloca el nombre del id , ejem si id="texto" en html, aqui se llamara #texto{}/
+*/
+
+#texto{
+    color: rgb(165, 42, 126);
+    font-size: 16px;
+    font-weight: 200;
+}

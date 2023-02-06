@@ -1,0 +1,15 @@
+
+.cuerpo{
+    background:linear-gradient(rgb(178, 255, 25),rgb(47, 82, 224));
+}
+.titu{
+    font-size: 30px;
+    color: rgb(34, 0, 255);
+}
+
+.parrafo{
+    font-size: 15px;
+    color: rgba(60, 0, 120, 0.918);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

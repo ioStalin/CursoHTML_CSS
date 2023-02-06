@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Calendario</title>
+</head>
+<body>
+    <!-- <form action="">
+        <label for="nombre">
+            <span>Cuál es tu nombre</span>
+            <input type="text" name="nombre" id="nombre" >
+        </label>
+
+        <label for="correo">
+            <span>Cuál es tu E-mail</span>
+            <input type="email" name="correo" id="correo">
+        </label>
+
+        <label for="pais">
+            <span>En que país vives</span>
+            <input type="text" name="pais" id="pais">
+        </label>
+
+        <label for="zipcode">
+            <span>Cuál es tu correo postal?</span>
+            <input type="text" name="zipcode" id="zipcode">
+        </label>
+        <input type="submit">
+    </form> -->
+
+    <form action="">
+        <label for="nombre">
+            <span>Cuál es tu nombre</span>
+            <input type="text" name="nombre" id="nombre" autocomplete="additional-name" required>
+
+        </label>
+
+        <label for="correo">
+            <span>Cuál es tu E-mail</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required>
+        </label>
+
+        <label for="pais">
+            <span>En que país vives</span>
+            <input type="text" name="pais" id="pais" autocomplete="country" required>
+        </label>
+
+        <label for="zipcode">
+            <span>Cuál es tu correo postal?</span>
+            <input type="text" name="zipcode" id="zipcode" autocomplete="postal-code" required>
+        </label>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
