@@ -2,7 +2,7 @@
     margin-top: 15px;
     list-style: none;
     padding-left: 0;
-    background-color: #594602d9;
+    background-color: #0f0c00f2;
 
 }
 
@@ -13,9 +13,27 @@
 
 .main-nav__item a{
     font-size: 30px;
-    color: rgb(68, 209, 16);
+    color: rgb(209, 190, 16);
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
 
 }
+
+/*Las pseudo clases se llaman a traves de : */
+.main-nav__item a:hover{
+    color: rgb(255, 21, 0); 
+}
+
+.main-nav__item a:active{
+    color: blueviolet;
+}
+
+/*Los pseudoelementos de llaman a traves de :: */
+.main-nav__item a::after{
+    content: " | ";
+}
+
+/*Hay diferencias entre pesudoclases y pseudo elementos
+Pseudoclases: Las pseudoclases definen el estilo de  un estado especial de un elemento
+Pseudoelementos: Define el estilo de una parte especifica de un elemento*/
