@@ -28,7 +28,7 @@
 .main-nav__item a:active{
     color: blueviolet;
 }
-
+/*****************************************************/
 /*Los pseudoelementos de llaman a traves de :: */
 .main-nav__item a::after{
     content: " | ";
