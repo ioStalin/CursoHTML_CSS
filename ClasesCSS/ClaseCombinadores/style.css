@@ -4,6 +4,20 @@
     padding: 0%;
 }
 
-h2 + p {            /*Esta estructura se lee, pintar de rojo a todo parrafo cercano a un elemento h2*/
+/*Esta estructura se lee, pintar de rojo a todo parrafo cercano a un elemento h2
+h2 + p {            
     color: red;
+}
+*/
+
+/*
+h2 ~ p {
+    color: blue;
+}
+*/
+
+/*Aplicar estilo a etiqueta parrafo que sea hija directa de etiqueta dev*/
+div > p {
+    color: blue;
+
 }
