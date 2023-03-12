@@ -41,12 +41,15 @@ html{
     background-color: rgb(3, 255, 125);
 }
 
+/*
 @media(min-width: 600px){
     .c2, .c3, .c4{
        width: 50%; 
     }
 }
+*/
 
+/*
 @media(min-width: 800px){
     .container{
         width: 800px;
@@ -70,4 +73,4 @@ html{
         width: 34%; 
      }
 }
-
+*/
